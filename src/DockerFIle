@@ -1,0 +1,22 @@
+# get the base node image
+FROM node:16.18.0-alpine3.16 AS base
+
+ENV UV_THREADPOOL_SIZE=64
+
+# set the working dir for container
+WORKDIR / pacific-admin-fe
+
+# copy the json file first
+ADD package.json yarn.lock postinstall.js ./
+
+# copy other project files
+ADD . .
+
+# install npm dependencies
+RUN yarn --frozen-lockfile && yarn build:dev \
+  && yarn global add serve \
+  && yarn cache clean && rm -rf node_modules
+
+EXPOSE 8080
+
+CMD ["yarn", "build:serve"]

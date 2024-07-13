@@ -1,0 +1,108 @@
+@import '../../stylesheets/variables.scss';
+
+.sidebar {
+  background: $sidebar_background_color;
+  top: $headerbar_ht;
+  left: 0;
+  width: $sidebar_width;
+  flex: 0 0 $sidebar_width;
+  height: calc(100vh - $headerbar_ht);
+  box-shadow: 10px 0 10px -10px #888;
+  transition: all 0.5s ease;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: 2px 6px;
+  scrollbar-width: thin;
+
+  .sidebar-item {
+    align-items: center;
+    justify-content: start;
+    border-radius: 4px;
+    margin: 5px 0;
+    list-style: none;
+
+    li {
+      list-style: none;
+    }
+
+    a {
+      color: $sidebar_text_color !important;
+      text-decoration: none;
+      display: flex;
+      align-items: center; /* Align items vertically */
+      border-radius: 5px;
+      padding: 16px 12px;
+      font-size: 14px;
+      font-weight: 500;
+
+      &:hover,
+      &.active {
+        background: $sidebar_background_hover_color;
+        color: $sidebar_text_hover_color !important;
+
+        /* Target the img inside the anchor */
+      }
+      img {
+        margin-right: 12px; /* Adjust spacing between image and text */
+        height: 20px; /* Adjust height of the image */
+        width: 20px; /* Adjust width of the image */
+        transition: filter 0.3s ease; /* Smooth transition for filter changes */
+        color: $sidebar_text_color !important;
+      }
+    }
+  }
+
+  .sub-menu {
+    background-color: white;
+
+    li {
+      padding: 5px 14px;
+
+      a {
+        padding: 16px 12px;
+        color: $sidebar_text_color !important;
+        text-decoration: none;
+        display: flex;
+        justify-content: space-between; /* Ensure space between items */
+        align-items: center; /* Align items vertically */
+        border-radius: 5px;
+        font-size: 14px;
+        font-weight: 500;
+
+        &:hover,
+        &.active {
+          background: $sidebar_background_hover_color;
+          color: $sidebar_text_hover_color !important;
+
+          /* Target the img inside the anchor */
+          img {
+            filter: invert(48%) sepia(43%) saturate(2906%) hue-rotate(328deg)
+              brightness(104%) contrast(99%);
+          }
+        }
+      }
+    }
+  }
+}
+
+.active-item {
+  opacity: 1;
+  background: $sidebar_background_hover_color;
+  color: $sidebar_text_hover_color !important;
+}
+
+.c-grey {
+  color: #909090;
+}
+
+// .sidebar .sidebar-item a:hover img,
+// .sidebar .sidebar-item a.active img {
+//   background: #665c47;
+//   color: #e3cd9e !important;
+// }
+.sidebar .sidebar-item a:hover img,
+.sidebar .sidebar-item a.active img {
+  //  filter: sepia(100%) saturate(100%) hue-rotate(50deg) brightness(90%);
+  filter: brightness(0) saturate(100%) invert(88%) sepia(27%) saturate(450%)
+    hue-rotate(345deg) brightness(96%) contrast(85%);
+}

@@ -1,0 +1,337 @@
+/* Element Heights */
+$headerbar_ht: 4.375rem; //Earlier height was 5rem
+
+/* Element Width */
+$sidebar_width: 16rem; //Earlier height was 14rem
+
+/** colors */
+
+// backgrounds
+$color-white-primary: #ffffff;
+$color-white-secondary: #eae8e6;
+
+// fonts
+$color-black-primary: #000000;
+$color-black-secondary: #625548;
+$color_grey: #505050;
+
+// backgrounds & highlights
+$color-violet-primary: #276cda;
+$color-violet-secondary: #4883e0;
+$color-violet-ternary: #6491d8;
+$color-sidebar-active: #303750;
+$color-sidebar-subactive: #30364b;
+$color-preview-bg: #fafafa;
+
+// buttons
+$color-primary: #ffcd00;
+$color-primary-dark: #ffc824;
+
+$color-green-primary: #00c0ac;
+$color-green-secondary: #02a695;
+
+// backgrounds & highlights
+$color-yellow-primary: #ee7700;
+$color-gray-primary: #aba79d;
+
+$color-maroon-primary: #800000;
+$color_red_primary: #ff0000;
+
+/* stylelint-disable color-no-hex */
+// stylelint-disable color-named
+//colors
+
+/* Major colors */
+$primary_color: #03000f;
+$secondary_color: #818087;
+$tertiary_color: #5f46dd;
+
+$color-blue-primary: #212529;
+// $disabled_color: #dfdaf8;
+$disabled_color: #b3b3b7;
+$form_field_disabled_color: #f9f9f9;
+$footer_text_color: #1e1c4c;
+$sidebar_background_color: #fff;
+$sidebar_text_color: #616364;
+$sidebar_background_hover_color: #665c47;
+$sidebar_text_hover_color: #e3cd9e;
+$footer_lbl_color: #646492;
+$footer_hr_color: #e8e8f0;
+$skyscanner_color: #0770e3;
+$light_purple_color: #edecf9;
+
+$primary_dark_green: #143b2e;
+$secondary_dark_green: #436e40;
+$dark_green: #144533;
+$light_green_1: #8fc56b;
+$light_green_2: #8fc56b;
+$light_green_3: #419e4d;
+$light_green_4: #215e47;
+$light_green_5: #32cd32;
+$light_green_6: #28ca42;
+$light_green_7: #7ed321;
+$light_green_8: #53a351;
+$light_green9: #d9ecdb;
+$light_green_10: #11ad94;
+$light_green_11: #f8fff1;
+$light_green_12: #28b446;
+$light_green_13: #8a5600;
+$light_green_14: #46b486;
+$light_green_15: #219653;
+$light_green_16: #6fcf97;
+$light_green_17: #c5dbd2;
+
+$light_green_18: #e3f4ed;
+$light_green_19: #328161;
+$light_green_20: #1d8d5e;
+$light_green_21: #46b486;
+$light_green_22: #1d8d5e;
+$border_color_1: #ced4da;
+
+$blue_color: #4a90e2;
+$blue_color_2: #475993;
+$blue_color_4: #5b8fff;
+$blue_color_5: #021775;
+$blue_color_6: #4a90e2;
+$blue_color_7: #e4ecff;
+$blue_color_8: #003060;
+$blue_color10: rgba(95, 70, 221, 0.7);
+$blue_color11: #644ed1;
+$blue_color12: #2d9cdb;
+$blue_color13: #cac5e3;
+$blue_color14: #2376e5;
+$blue_color15: #7357ff;
+$blue_color16: #98c9ff;
+$blue_color17: #4d35c4;
+$blue_color18: #4e38bb;
+$blue_color19: #0d6efd;
+$purple_color: #455997;
+$purple_color_1: #4d184e;
+$purple_color_2: #47143d;
+$purple_color_3: #38334a;
+$purple_color_4: #8876e0;
+$purple_color_5: #3c3c69;
+$purple_color_5: #292759;
+$purple_color_6: #643de3;
+
+$red_color: #f00;
+$red_color_1: #ff5353;
+$red_color_2: #d0021b;
+$red_color_3: #ef3e23;
+$red_color_4: #c90000;
+$red_color_5: #eb5757;
+$red_color_6: #de4c3c;
+$red_color_7: #e53b50;
+$red_color_8: #fce6e6;
+$red_color_9: #eb5757;
+$red_color_10: #bd350d;
+$orange_color: #f7773b;
+$orange_color_secondary: #ff6258;
+$orange_color_2: #ff7c00;
+$orange_color_3: #e1a546;
+$orange_color_4: #ff7a5b;
+$orange_color_5: #f2994a;
+$orange_color_6: #ffb95a;
+$orange_color_7: #ff8073;
+$yellow_color: #f7c03b;
+$yellow_color_2: #febe68;
+$yellow_color_3: #fdf0e4;
+$yellow_color_4: #cd7526;
+$yellow_color_5: #f19809;
+$primary_background_grey: #f7fafa;
+$secondary_background_grey: #f9f9f9;
+$background_grey_1: #fbfbfb;
+$background_grey_2: #eeeff1;
+$background_yellow_1: #ffc800;
+$background_yellow_2: #fcd664;
+$background_yellow_3: #fff9f2;
+$background_grey_3: #d8d8d8;
+$background_grey_4: #f3f5f8;
+$background_grey_5: #eee;
+$background_grey_6: #f2f2f3;
+$background_grey_7: #e0dcf6;
+$background_grey_8: #e5cccf;
+$background_grey_9: #c4c4c4;
+$background_grey_10: #e3e4e6;
+$background_grey_11: #f4f4f4;
+$background_grey_12: #e5e5e5;
+$background_grey_13: #f2f2fa;
+$background_grey_14: #eff6ff;
+$background_grey_15: #cfd8dc;
+$background_grey_16: #ccc;
+$disabled_pay_button: #444055;
+
+$light_grey: #efefef;
+$light_grey_1: #dddada;
+$light_grey_2: #999;
+$light_grey_3: #f8f8f8;
+$light_grey_4: #e6e6e6;
+$light_grey_5: #4a4a4a;
+$light_grey_6: #b2b2b2;
+$light_grey_7: #fff3;
+$light_grey_8: #f7f7f7;
+$light_grey9: #a7b9f0;
+$light_grey10: #6d7278;
+$light_grey_9: #b6b8bb;
+$light_grey_11: #c7c9cc;
+$light_grey12: #ddd;
+$light_grey_13: rgba(225, 225, 224, 0.4);
+$light_grey_14: #e1e6ef;
+$light_grey_15: #ededed;
+$light_grey_16: #f2f2f2;
+$light_grey_17: #979797;
+$light_grey_18: #ecf3fc;
+$light_grey_19: #a6b3cf;
+$light_grey_20: #f6f5fc;
+$light_grey_21: #f5f5f5;
+$light_grey_22: #fffceb;
+$light_grey_23: #f2f2f6;
+$light_grey_24: #d7ccf6;
+$light_grey_25: #8c06001d;
+$light_grey_26: #f7f7f8;
+$light_grey_27: #4c06001d;
+$light_grey_28: #b4b3bb;
+$light_grey_30: #b3b3b7;
+$light_grey_31: #e6e5e7;
+$light_grey_32: #d9d9db;
+$light_grey_33: #35333f;
+$light_grey_34: #ddd;
+$light_grey_35: #f7f5fd;
+$light_grey_36: #cdcccf;
+$light_grey_37: #9b9b9b;
+$light_grey_38: #6e6d74;
+$light_grey_39: #e0e0e0;
+$light_grey_40: #4f4d57;
+$light_grey_41: #636363;
+$light_grey_42: #727294;
+$light_grey_43: #9696bd;
+$light_grey_44: #828282;
+$light_grey_45: #d4d4ee;
+$light_grey_46: #d8d8e3;
+$light_grey_47: #dbecff;
+$light_grey_48: #f3f3f3;
+$footer_bg_color: #fafaff;
+
+/* Pink Colors */
+$pink_color: #f5e9e4;
+
+/* My Portal Colors */
+
+$box_shadow_1: rgba(0, 0, 0, 0.5);
+$box_shadow_2: rgba(0, 0, 0, 0.1);
+$box_shadow_3: rgba(0, 0, 0, 0.19);
+$box-shadow_4: rgba(22, 21, 21, 0.1);
+$box-shadow_5: rgba(0, 0, 0, 0.2);
+$light_white: #fcfcfc;
+
+$white_color: #fff;
+$white_color_1: rgba(255, 255, 255, 0.5);
+$white_color_2: rgba(255, 255, 255, 0.65);
+$black_color: #000;
+$black_color1: #999;
+$black_color2: #4a4a4a;
+$black_color3: #4d4d4d;
+$black_color4: #a9a9a9;
+$black_color6: #0000001a;
+$black_color7: #1e2834;
+$black_color8: rgba(221, 221, 221, 0.2);
+$black_color9: rgba(17, 173, 148, 0.1);
+$black_color10: #090228;
+$black_color11: rgba(222, 76, 60, 0.17);
+$black_color12: rgba(6, 0, 29, 0.55);
+$black_color13: rgba(6, 0, 29, 0.3);
+$black_color14: #06001d;
+$black_color15: rgba(6, 0, 29, 0.8);
+$black_color16: rgba(6, 0, 29, 0.1);
+$black_color17: #333;
+$black_color18: rgba(0, 0, 0, 0.05);
+$black_color20: #333;
+$black_color21: #d4d4d4;
+$black_color22: rgba(255, 255, 255, 0.15);
+$black_color23: #6000;
+$black_color24: rgba(3, 0, 15, 0.8);
+$black_color25: rgba(255, 255, 255, 0.55);
+$black_color26: rgba(0, 0, 0, 0.85);
+$black_color27: #1c1a27;
+$black_color28: #010101;
+$black_color29: rgba(53, 51, 63, 0.85);
+$black_color30: #2a3342;
+$black_color31: rgba(3, 0, 15, 0.55);
+$black_color32: #68666f;
+$black_color33: #131238;
+
+$grey_color_border: #edebeb;
+$grey_line_color: #d5d5d5;
+$grey_divider_color: #f0f0ef;
+$royal-blue: #5b8fff;
+$royal_blue_20: #c8d9ff;
+$royal_blue_100: #1b4fbf;
+$light_blue_1: #16cab0;
+$red_orange_90: #ff4d24;
+$charcoal_40: #abaeb3;
+$color_warning: #c90000;
+$charcoal_color_80: #3a434d;
+$airline_color_code: #001b94;
+$brown_color: #2d0c1d;
+$dark_navy: #1906001d;
+$cpink100: #f9c2b2;
+
+$c_spinner1: #1e1c4c;
+$c_spinner2: #ffbeb8;
+$c_spinner3: #ff8c94;
+$c_spinner4: #aca8f6;
+$c_spinner5: #c0c6f1;
+
+///new design
+$goldenColor: #f19809;
+$dogerBlue: #5f9eff;
+$purple: #5f46dd;
+$background_color_100: #f2f2f3;
+$background_color_101: #e5e5e5;
+$light_gray: #818087;
+$light_pink_karry: #ffe8d1;
+$light_gray_100: #f7f7f8;
+$light_gray_101: #35333f;
+$light_blue: #f2f2f3;
+$persian_red: #d03939;
+$serenade_yellow: #fff6ed;
+
+//font-sizes
+$fs40: 4rem;
+$fs32: 3.2rem;
+$fs34: 3.4rem;
+$fs22: 2.2rem;
+$fs20: 2rem;
+$fs24: 2.4rem;
+$fs17: 1.7rem;
+$fs18: 1.8rem;
+$fs16: 1.6rem;
+$fs15: 1.5rem;
+$fs14: 1.4rem;
+$fs13: 1.3rem;
+$fs12: 1.2rem;
+$fs11: 1.1rem;
+$fs10: 1rem;
+
+// Gutters
+$main-gutter: calc((100vw - 122rem) / 2);
+
+$assets_url: 'https://assets.tc.dev.projectx.in/';
+// $assets_url: 'https://assets.tc.qa.projectx.in/';
+// $assets_url: 'https://tc-assets.theblinc.in/';
+// $assets_url: 'https://tc-assets.blinctrip.com/';
+
+$font-primary: 'proximanova-regular';
+$font-secondary: 'proximanova-semibold';
+$font-tertiary: 'proximanova-bold';
+
+$font-filename-primary: 'proximanova-regular.otf';
+$font-filename-secondary: 'proximanova-semibold.otf';
+$font-filename-tertiary: 'proximanova-bold.otf';
+
+$font-filename-primary-woff2: 'proximanova-regular.woff2';
+$font-filename-secondary-woff2: 'proximanova-semibold.woff2';
+$font-filename-tertiary-woff2: 'proximanova-bold.woff2';
+
+// images
+$image_path: 'images';

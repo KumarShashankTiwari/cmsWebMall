@@ -1,0 +1,131 @@
+@import '../../stylesheets//variables.scss';
+
+.logonWrapper-text {
+  margin-bottom: 20px;
+  p{
+    margin-bottom: 0;
+  }
+  & label {
+    margin-bottom: 5px;
+    display: inline-block;
+    span {
+      color: $color_red_primary;
+    }
+  }
+}
+
+.form-input {
+  border: 1px solid #D8DDE0;
+  height: 48px;
+  padding: 15px 12px 15px 12px;
+  border-radius: 10px;
+  font-size: 12px;
+  color: #060606;
+  display: block;
+  width: 100%;
+}
+.cdropdown{ 
+  .Dropdown-control{
+    border: 1px solid #D8DDE0;
+    height: 48px;
+    padding: 15px 12px 15px 12px;
+    border-radius: 10px;
+    font-size: 12px;
+    color: #11142D;
+    display: block;
+    width: 100%;
+    .Dropdown-placeholder{
+      font-size: 12px;
+      font-weight: 500;
+      &.is-selected{
+        color: #11142D;
+      }
+    }
+    .Dropdown-arrow{
+      top: 22px;
+    }
+  }
+}
+.d-block{
+  span{
+    font-weight: 500;
+  }
+}
+.newattachment {
+  background-color: #fff;
+  img{
+    max-width: 20px;
+    height: auto;
+  }
+  p{
+    font-weight: 500;
+    margin-bottom: 0;
+    span{
+      margin-left: 5px;
+    }
+  }
+}
+// .form-control:focus-visible {
+//   color: $color-blue-primary;
+//   background-color: $color-white-primary;
+//   border-color: $color-primary !important;
+//   outline: 0;
+//   box-shadow: 0 0 0 0.1rem $color-primary !important;
+// }
+// input:-webkit-autofill {
+//   border: 3px solid blue;
+//   background-color: transparent;
+// }
+// input:autofill {
+//   border: 3px solid blue;
+//   background-color: transparent;
+// }
+// input::-webkit-outer-spin-button,
+// input::-webkit-inner-spin-button {
+//   -webkit-appearance: none;
+//   margin: 0;
+// }
+
+// /* Firefox */
+// input[type='number'] {
+//   -moz-appearance: textfield;
+// }
+.f-right {
+  float: right;
+}
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+
+.form-control{
+  &:focus{
+    box-shadow: none !important;
+    outline: none;
+    border-color: rgba(#616364,.8) !important;
+  }
+  &.button{
+    height: 48px;
+    background: #E3CD9E;
+    border-radius: 10px;
+    border-bottom: none;
+    box-shadow: none;
+    font-size: 16px;
+    color: #4B4433 !important;
+    font-weight: 500;
+    transition: all .2s;
+    &:hover{
+      opacity: .85;
+    }
+    &:focus{
+      outline: none;
+      background: #E3CD9E;
+      color: #4B4433 !important;
+      box-shadow: none;
+      border:none;
+    }
+  }
+}

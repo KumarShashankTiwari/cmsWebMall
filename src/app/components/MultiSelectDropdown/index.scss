@@ -1,0 +1,23 @@
+.text {
+  width: 50%;
+  font-weight: bold;
+  padding-bottom: 1.5rem;
+}
+// .select{
+//     font-weight: bold;
+//     display: flex;
+//     font-size: 1.4rem;
+
+// }
+
+.multiselectbox {
+  margin-top: 1.5rem;
+
+  & label {
+    margin-bottom: 0.5rem;
+  }
+
+  & .searchWrapper {
+    padding: 0.5rem;
+  }
+}

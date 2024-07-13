@@ -1,0 +1,33 @@
+.pnf {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 40%;
+  margin: auto;
+  height: 100vh;
+  text-align: center;
+
+  & h1 {
+    font-size: 40px;
+    margin: 0;
+    margin-bottom: 25px;
+    letter-spacing: 0.1rem;
+  }
+
+  & h2 {
+    font-size: 25px;
+    margin: 0;
+    margin-bottom: 25px;
+    letter-spacing: 0.1rem;
+  }
+
+  & p {
+    font-size: 16px;
+    margin: 0;
+    letter-spacing: 0.1rem;
+    a{
+      color: #E3CD9E;
+    }
+  }
+}

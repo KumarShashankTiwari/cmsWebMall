@@ -1,0 +1,35 @@
+@import '../../stylesheets/variables.scss';
+
+.button {
+  // width: 100%;
+  // width: 10rem;
+  cursor: pointer !important;
+  height: 48px;
+  background: #e3cd9e;
+  border-radius: 10px;
+  border-bottom: none;
+  box-shadow: none;
+  font-size: 16px;
+  color: #4b4433;
+  font-weight: 500;
+  transition: all 0.2s;
+  border-radius: 25px;
+  border: none;
+  padding: 0 20px;
+  &:disabled,
+  &[disabled] {
+    background-image: linear-gradient(to left, #ddd 50%, #ddd 50%);
+  }
+  // FOr small button Start
+  &.btn-sm {
+    height: auto;
+    padding: 5px 20px;
+    margin: 0;
+  }
+  // FOr small button End
+}
+.cancel-button {
+  background: #fff;
+  border: 1px solid #e3cd9e !important;
+  color: #4b4433 !important;
+}

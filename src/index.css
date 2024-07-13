@@ -1,0 +1,185 @@
+html body {
+  font-family: 'Poppins', sans-serif;
+}
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+input,
+button,
+select,
+option,
+textarea {
+  font-family: 'Poppins', sans-serif;
+}
+
+code {
+  font-family: 'Poppins', sans-serif;
+}
+
+.react-toggle-track {
+  background-color: #e3cd9e !important;
+}
+
+.h4,
+h4,
+.headerback_title {
+  font-size: 18px;
+  font-weight: 500 !important;
+  color: #000;
+}
+
+.flex {
+  display: flex;
+}
+.justify-between {
+  justify-content: space-between;
+}
+
+.wd-25 {
+  width: calc(25% - 16px);
+}
+.wd-50 {
+  width: calc(50% - 16px);
+}
+.wd-100 {
+  width: 100%;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.gap-10 {
+  gap: 10px;
+}
+
+body
+  .react-confirm-alert
+  .react-confirm-alert-button-group
+  > button:first-child {
+  height: 36px;
+  background: #e3cd9e;
+  border-radius: 10px;
+  border-bottom: none;
+  box-shadow: none;
+  font-size: 13px;
+  color: #4b4433 !important;
+  font-weight: 600;
+  transition: all 0.2s;
+  border-radius: 25px;
+  border: none;
+  padding: 0 20px;
+}
+body
+  .react-confirm-alert
+  .react-confirm-alert-button-group
+  > button:last-child {
+  height: 36px;
+  background: #fff;
+  border-radius: 10px;
+  transition: all 0.2s;
+  border-radius: 25px;
+  border: none;
+  padding: 0 20px;
+  border: 1px solid #e3cd9e;
+  color: #4b4433;
+  font-size: 13px;
+}
+body .react-confirm-alert-overlay {
+  background: rgba(0, 0, 0, 0.25);
+}
+
+.table {
+  /*  overflow: auto; */
+  border: 1px solid #d8dde0;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0px 1px 3px 0px #0000001a;
+}
+/* table {
+  min-width: 1000px;
+} */
+table th {
+  white-space: nowrap;
+  border-bottom: 1px solid #d8dde0;
+  padding: 12px;
+}
+table tr {
+  border: none;
+}
+table td {
+  border-width: 0px;
+  padding: 8px 12px;
+}
+table tr:nth-child(even) td {
+  background-color: #f9fafb;
+}
+.info-text {
+  font-size: 12px;
+  color: #747678;
+  margin-top: 5px;
+}
+
+.table-cells-center {
+  word-wrap: break-word;
+  margin-bottom: 0;
+}
+
+.inner-form-wrapper {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 12px;
+}
+.Dropdown-placeholder {
+  color: #747678;
+}
+.Dropdown-option,
+.Dropdown-noresults {
+  font-size: 12px;
+  font-weight: 500;
+  color: #0d0d0e;
+}
+
+.bdg {
+  padding: 0 10px;
+  height: 22px;
+  display: flex;
+  justify-content: center;
+  border-radius: 6px;
+  display: inline-flex;
+}
+
+.bdg.active {
+  background-color: #def7ec;
+  color: #03543f;
+}
+.bdg.inactive {
+  background-color: #fde8e8;
+  color: #9b1c1c;
+}
+
+.content-container__pagination {
+  padding: 15px 15px;
+}
+.content-container__pagination .pagination {
+  margin-bottom: 0;
+}
+
+.btn-outline-primary {
+  white-space: no-wrap;
+}
+.link {
+  cursor: pointer;
+  text-decoration: underline;
+  margin: 0 6px;
+}
+.cms-content__container {
+  .h4,
+  h4 {
+    font-size: 18px;
+    color: #000;
+    font-weight: 500;
+  }
+}

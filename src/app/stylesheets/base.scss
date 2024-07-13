@@ -1,0 +1,128 @@
+@import 'styles/variables.scss';
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: inherit;
+  -webkit-tap-highlight-color: transparent;
+}
+
+html {
+  // font-size: 62.5%;
+  font-size: 100%;
+}
+
+body {
+  max-width: 1920px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif !important;
+  font-weight: 400 !important; // Default is Regular
+  overflow: hidden;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+// .btn-small {
+//   width: 6rem;
+// }
+
+.btn-medium {
+  width: 10rem;
+}
+
+.btn-extramedium {
+  width: 17rem;
+}
+
+// h1,
+// h2,
+// h3,
+// h4,
+// h5,
+// h6 {
+//   font-family: $font-blockberth-primary;
+// }
+
+input::placeholder,
+textarea::placeholder {
+  color: $black_color;
+  color: #747678;
+  opacity: 1;
+}
+
+input:focus,
+textarea:focus {
+  outline: none !important;
+  border-color: $color-violet-secondary;
+  box-shadow: 0 0 10px $color-violet-secondary;
+  transition: all 0.3s ease;
+}
+
+.form-check-input[type='checkbox']:checked,
+.form-check-input[type='radio']:checked {
+  background-color: $color-violet-secondary;
+  cursor: pointer;
+  border-color: $color-violet-secondary;
+  // background-color: red;
+  // border-color: red;
+  transition: all 0.3s ease;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type='number'] {
+  -moz-appearance: textfield;
+}
+
+/* breakpoints 
+  320px - 720px - For mobile.
+  721px - 1023px - For tab.
+  1024px - 1440px - For Desktop.
+*/
+@media all and (min-width: 1600px) {
+  // define your rem value
+}
+
+@media all and (min-width: 1200px) {
+  // define your rem value
+}
+
+@media all and (min-width: 992px) {
+  // define your rem value
+}
+
+@media all and (min-width: 768px) {
+  // define your rem value
+}
+
+@media all and (min-width: 576px) {
+  // define your rem value
+}
+
+@media all and (max-width: 575px) {
+  // define your rem value
+}
+
+/* breakpoints - retina */
+@media (-webkit-min-device-pixel-ratio: 1.5),
+  //(min--moz-device-pixel-ratio: 1.5),
+  (-o-min-device-pixel-ratio: 3/2),
+  (min-resolution: 1.5dppx) {
+  // define your rem value
+}
+
+

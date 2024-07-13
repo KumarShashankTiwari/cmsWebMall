@@ -1,0 +1,28 @@
+/* App.css */
+.react-time-picker {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 5px;
+  width: fit-content;
+}
+
+.react-time-picker__wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.react-time-picker__inputGroup {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.react-time-picker__inputGroup__input {
+  height: 30px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.react-time-picker__inputGroup__divider {
+  padding: 0 4px;
+}

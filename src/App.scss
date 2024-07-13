@@ -1,0 +1,150 @@
+@import './app/stylesheets/typography.scss';
+@import './app/stylesheets/variables.scss';
+
+.table {
+  font-size: 0.8rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+}
+table td,
+table th {
+  text-align: left;
+  max-width: 21.875rem;
+
+  video {
+    height: 6.25rem;
+    width: 6.25rem;
+  }
+}
+
+table th {
+  text-align: left;
+  background-color: #f9fafb;
+  color: #747678;
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+.my-table__arrow {
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+.content-container__actionBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.content-container__perPage {
+  display: flex;
+  align-items: center;
+  column-gap: 1rem;
+}
+.content-container__filterSearch {
+  display: flex;
+  column-gap: 0.5rem;
+}
+
+.content-container__pagination {
+  display: flex;
+  justify-content: flex-end;
+  .cursor-pointer {
+    cursor: pointer;
+  }
+  #active-page {
+    background-color: #d8dde0;
+  }
+}
+
+.custom-select {
+  padding: 0.5rem 1rem;
+  border: 1px solid #d8dde0;
+  border-radius: 0.4rem;
+}
+.table-menu {
+  label {
+    cursor: pointer;
+  }
+}
+
+.drop-down {
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.contentWrapper .react-toggle--checked .react-toggle-track {
+  background-color: $sidebar_background_hover_color;
+}
+
+.contentWrapper .react-toggle--checked .react-toggle-thumb {
+  box-shadow: none;
+  border-color: $sidebar_background_hover_color;
+}
+
+.contentWrapper .btn-outline-primary {
+  border-color: $sidebar_background_hover_color;
+  color: $sidebar_text_color;
+  font-size: 0.813rem;
+  &:hover,
+  &:focus {
+    background: none !important;
+    box-shadow: 0 0 0.313rem rgba(#000, 0.2);
+    color: $sidebar_text_color !important;
+    border-color: $sidebar_background_hover_color;
+  }
+}
+
+.contentWrapper .active > .page-link,
+.contentWrapper .page-link.active {
+  background-color: #d8dde0;
+  border-color: #d8dde0;
+  color: #3267e3;
+}
+.contentWrapper .page-link {
+  background-color: #fff;
+  color: $sidebar_text_color;
+}
+.contentWrapper .disabled > .page-link,
+.contentWrapper .page-link.disabled {
+  background-color: #fff;
+}
+
+.react-time-picker {
+  background-color: #fff;
+  margin-bottom: 0.875rem;
+  border-radius: 0.313rem;
+  min-width: 6.25rem;
+  .react-time-picker__wrapper {
+    border: none;
+    font-size: 0.875rem;
+    font-weight: 500;
+  }
+  select {
+    &:focus {
+      outline: none;
+    }
+  }
+}
+.overlay-custom-class-name {
+  background: transparent;
+}
+.react-confirm-alert-body {
+  background: transparent;
+}
+.cms-content__container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+}
+.react-time-picker__wrapper {
+  border: none !important;
+}
+.bottom-pagination {
+  display: flex;
+  justify-content: space-between;
+}
+.content-container__pagination__left {
+  padding: 0.938rem 0.938rem 0.938rem 0rem;
+}

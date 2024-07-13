@@ -1,0 +1,47 @@
+@import '../../stylesheets/variables.scss';
+
+.overlay-custom-class-name {
+  background: transparent;
+}
+.react-confirm-alert-body {
+  background: transparent;
+}
+.cms-content__container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+}
+
+.content-container__filterSearch {
+  display: flex;
+  column-gap: 0.5rem;
+}
+
+.content-container__pagination {
+  display: flex;
+  justify-content: flex-end;
+  .cursor-pointer {
+    cursor: pointer;
+  }
+  #active-page {
+    background-color: $light_grey_1;
+  }
+}
+
+.custom-select {
+  padding: 0.5rem 1rem;
+  border: 1px solid $light_grey_1;
+  border-radius: 0.4rem;
+}
+.table-menu {
+  label {
+    cursor: pointer;
+  }
+}
+.content-container__filterSearch {
+  .cdropdown {
+    .Dropdown-control {
+      width: 382px;
+    }
+  }
+}
